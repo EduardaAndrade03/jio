@@ -44,18 +44,19 @@
 
 # q 5
 
-med=0
-maior=0
-menor=0
-alunos=int(input("quantos alunos tem? "))
-for a in range(1, alunos+1):
-    nota=int(input(f"nota de {a}: "))
-    med+=nota
-    if nota>=6:
-        maior+=1
-    elif nota<6:
-        menor+=1
-med/=alunos
-print(f"media geral: {med}")
-print(f"alunos acima da média: {maior}")
-print(f"alunos abaixo da média: {menor}")
+# med=0
+# maior=0
+# menor=0
+# alunos=int(input("quantos alunos tem? "))
+# for a in range(1, alunos+1):
+#     nota=int(input(f"nota de {a}: "))
+#     med+=nota
+#     if nota>=6:
+#         maior+=1
+#     elif nota<6:
+#         menor+=1
+# med/=alunos
+# print(f"media geral: {med}")
+# print(f"alunos acima da média: {maior}")
+# print(f"alunos abaixo da média: {menor}")
+
